@@ -1,0 +1,50 @@
+/*<!--aqui editamos uno por uno la apariencia del elemento que deseamos modificar-->*/
+
+body {	/*aqui editamos todo lo que va dentro del body*/
+	text-align: center;   /*alineacion del texto*/
+	background-color: #311B92;   /*color del fondo del body*/
+	font-family: 'Architects Daughter';   /*editamos el estilo de la fuente (si esta puesto en el body usara esta fuente para toda la web)*/
+	color: #A3E4D7;
+}		/*en la pagina fonts.google.com buscamos los estilos de font y las familias*/
+
+.cuadrado-color{
+	
+	background-color: #1C2833;
+	padding-bottom: 50px; 
+	padding-top: 50px;
+}
+
+p{		/*aqui editamos el parrafo*/
+	color: white;
+}
+
+h1{		/*aqui editamos el primer titulo*/
+	color: #F1C40F;
+	font-family: 'Rye';
+}
+
+h3{
+	color: #F39C12;
+}
+
+img{	/*asi se editan TODAS las imagenes incluidas*/
+	width: 400px;
+}
+	/*para editar una en particular le asignamos una class y luego la llamamos*/
+	/*para llamarla ponemos un punto que indica que buscaremos una class, seguido del nombre de la class*/
+.primera{	/*para editar una en particular le asignamos una class y luego la ponemos aqui*/
+	width: 600px;
+}
+.enlaces{
+	border-top: 2px dotted white;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+/*padding es para encuadrar los parrafos (body)(top,bottom,etc)*/
+h2{
+	color: #1ABC9C;
+}
+h4{
+	color:#76D7C4;
+}
